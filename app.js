@@ -36,22 +36,7 @@ const swaggerSpec = swaggerJsdoc(options);
 
 const app = express();
 
-var whitelist = [
-  "http://localhost:3000",
-  "https://blog-management-api-nwkl.onrender.com/",
-];
-var corsOptions = {
-  origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-};
-
-app.use(cors(corsOptions));
-
+app.use(cors());
 app.use(express.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }));
