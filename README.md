@@ -2,6 +2,8 @@
 
 This Node.js project is a backend service for a Blog Management Platform, providing essential functionalities for user management and blog post management. It utilizes Express.js, Bcryptjs, Jsonwebtoken, and Mongoose for efficient development.
 
+Base url: https://blog-management-api-nwkl.onrender.com/
+
 ## Functionalities
 
 #### 1. User Management:
@@ -48,8 +50,6 @@ This Node.js project is a backend service for a Blog Management Platform, provid
 ## How to Run
 
 Follow these steps to run the project locally:
-
-Base url: https://blog-management-api-nwkl.onrender.com/
 
 #### 1. Clone this repository.
 
