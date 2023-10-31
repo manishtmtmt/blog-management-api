@@ -52,12 +52,12 @@ Follow these steps to run the project locally:
 #### 1. Clone this repository.
 
 ```bash
-git clone
+git clone https://github.com/manishtmtmt/blog-management-api.git
 ```
 #### 2. Navigate to the project folder using your command line interface.
 
 ```bash
-cd 
+cd blog-management-api
 ```
 
 #### 3. Install the project dependencies by running the following command:
