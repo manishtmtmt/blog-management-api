@@ -49,6 +49,8 @@ This Node.js project is a backend service for a Blog Management Platform, provid
 
 Follow these steps to run the project locally:
 
+Base url: https://blog-management-api-nwkl.onrender.com/
+
 #### 1. Clone this repository.
 
 ```bash
